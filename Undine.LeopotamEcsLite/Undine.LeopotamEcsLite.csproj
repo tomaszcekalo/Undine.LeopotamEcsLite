@@ -2,11 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/tomaszcekalo/Undine.LeopotamEcsLite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tomaszcekalo/Undine.LeopotamEcsLite</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <Authors>Tomasz Cekało</Authors>
+    <Description>Undine bindings for LeopotamEcsLite framework</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Leopotam.EcsLite" Version="1.0.0" />
-    <PackageReference Include="Undine.Core" Version="0.0.0.2" />
+    <PackageReference Include="Undine.Core" Version="0.0.0.5" />
   </ItemGroup>
 
 </Project>
