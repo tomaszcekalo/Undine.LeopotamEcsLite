@@ -6,14 +6,14 @@ using Undine.Core;
 
 namespace Undine.LeopotamEcsLite
 {
-    public class LeopotamEcsContainer : EcsContainer
+    public class LeopotamEcsLiteContainer : EcsContainer
     {
         private readonly EcsWorld _ecsWorld;
         private readonly EcsSystems _systems;
 
         private readonly EcsSystems _systems2;
 
-        public LeopotamEcsContainer()
+        public LeopotamEcsLiteContainer()
         {
             _ecsWorld = new EcsWorld();
             _systems = new EcsSystems(_ecsWorld);

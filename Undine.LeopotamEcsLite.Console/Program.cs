@@ -5,7 +5,7 @@ using Undine.LeopotamEcsLite;
 
 Console.WriteLine("Hello, World!");
 
-var container = new LeopotamEcsContainer();
+var container = new LeopotamEcsLiteContainer();
 var c1sys = new Component1System();
 container.AddSystem(c1sys);
 var e1 = container.CreateNewEntity();

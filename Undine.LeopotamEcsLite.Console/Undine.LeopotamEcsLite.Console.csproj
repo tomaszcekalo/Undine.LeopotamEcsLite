@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="Leopotam.EcsLite" Version="1.0.0" />
-    <PackageReference Include="Undine.Core" Version="0.0.0.2" />
   </ItemGroup>
 
   <ItemGroup>

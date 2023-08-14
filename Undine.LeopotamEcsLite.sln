@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undine.LeopotamEcsLite", "Undine.LeopotamEcsLite\Undine.LeopotamEcsLite.csproj", "{0FDE13EA-2BFE-410E-94AD-9D01DE3F5E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.LeopotamEcsLite.Console", "Undine.LeopotamEcsLite.Console\Undine.LeopotamEcsLite.Console.csproj", "{D4D22B97-0F68-4671-9EA8-58282FDBACC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undine.LeopotamEcsLite.Console", "Undine.LeopotamEcsLite.Console\Undine.LeopotamEcsLite.Console.csproj", "{D4D22B97-0F68-4671-9EA8-58282FDBACC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.LeopotamEcsLite.Tests", "Undine.LeopotamEcsLite.Tests\Undine.LeopotamEcsLite.Tests.csproj", "{486693F2-8B7C-43AF-BD08-0FF9C0239EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D4D22B97-0F68-4671-9EA8-58282FDBACC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D22B97-0F68-4671-9EA8-58282FDBACC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D22B97-0F68-4671-9EA8-58282FDBACC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486693F2-8B7C-43AF-BD08-0FF9C0239EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486693F2-8B7C-43AF-BD08-0FF9C0239EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486693F2-8B7C-43AF-BD08-0FF9C0239EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486693F2-8B7C-43AF-BD08-0FF9C0239EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
