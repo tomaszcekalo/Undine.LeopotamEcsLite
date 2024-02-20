@@ -57,6 +57,15 @@ namespace Undine.LeopotamEcsLite
             return new LeopotamEntity(_ecsWorld);
         }
 
+        public override void DeleteEntity(IUnifiedEntity entity)
+        {
+            var entityToDelete = entity as LeopotamEntity;
+            if(entityToDelete is not null)
+            {
+                _ecsWorld.DelEntity(entityToDelete.EntityId);
+            }
+        }
+
         public override ISystem GetSystem<A>(UnifiedSystem<A> system)
         {
             var result = new LeopotamSystem<A>()
